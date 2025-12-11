@@ -598,27 +598,6 @@ export default function ConversionDashboard() {
         padding: '48px 24px'
       }}>
         <div style={{ marginBottom: '32px' }}>
-          <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '12px',
-            marginBottom: '8px'
-          }}>
-            <div style={{
-              width: '10px',
-              height: '10px',
-              borderRadius: '50%',
-              backgroundColor: '#22c55e',
-              boxShadow: '0 0 0 3px rgba(34, 197, 94, 0.2)'
-            }} />
-            <span style={{
-              fontSize: '12px',
-              fontWeight: '600',
-              color: '#22c55e',
-              textTransform: 'uppercase',
-              letterSpacing: '0.05em'
-            }}>Live</span>
-          </div>
           <h1 style={{
             fontSize: '36px',
             fontWeight: '400',
