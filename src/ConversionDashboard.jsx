@@ -75,7 +75,7 @@ const conversions = [
     email: 'emma.watson@greenleaf.org',
     domain: 'greenleaf.co',
     amount: 950,
-    status: 'Make Offer',
+    status: 'PR',
     paymentType: 'Outright',
     installments: null,
     source: 'google',
@@ -167,7 +167,6 @@ const conversions = [
 const statusColors = {
   'Full Price': { bg: '#dcfce7', text: '#166534', dot: '#22c55e' },
   'Negotiated': { bg: '#fef3c7', text: '#92400e', dot: '#f59e0b' },
-  'Make Offer': { bg: '#dbeafe', text: '#1e40af', dot: '#3b82f6' },
   'PR': { bg: '#f3e8ff', text: '#7c3aed', dot: '#a855f7' }
 };
 
@@ -205,7 +204,7 @@ function formatCurrency(amount) {
 }
 
 function StatusBadge({ status }) {
-  const colors = statusColors[status] || statusColors['Make Offer'];
+  const colors = statusColors[status] || statusColors['PR'];
   return (
     <span style={{
       display: 'inline-flex',
