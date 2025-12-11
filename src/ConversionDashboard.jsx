@@ -602,13 +602,8 @@ export default function ConversionDashboard() {
             fontSize: '36px',
             fontWeight: '400',
             color: '#0f172a',
-            fontFamily: "'Instrument Serif', serif",
-            marginBottom: '6px'
+            fontFamily: "'Instrument Serif', serif"
           }}>Conversions</h1>
-          <p style={{
-            fontSize: '14px',
-            color: '#64748b'
-          }}>{conversions.length} total conversions</p>
         </div>
 
         <div style={{
